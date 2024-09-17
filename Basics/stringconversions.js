@@ -21,12 +21,16 @@ let gameCounter = 100
 ++gameCounter;
 // console.log(gameCounter);
 
-let x = 4
-// let y = x++
-let z = ++x
+// let x = 4
+// // let y = x++
+// let z = ++x
 // console.log(`x:${x}, y:${y}`);
-console.log(`x:${x}, z:${z}`);
+// console.log(`x:${x}, z:${z}`);
 
 
 // If we use pre-fix operation then both values will be increase.
 // If we use post-fix operation then x will be increase and y will takes the x value.
+
+let x = null
+let y = x++
+console.log(`x:${x}, y:${y}`);

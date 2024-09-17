@@ -18,3 +18,5 @@
 // avoide up ones comparision
 
 console.log("2" === 2);
+
+
